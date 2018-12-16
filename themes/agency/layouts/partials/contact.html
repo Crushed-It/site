@@ -21,12 +21,7 @@
         <form
           method="POST"
           name="sentMessage"
-          id="contactForm
-          {{- if $contact.netlify -}}
-            " netlify
-          {{- else -}}
-            " action="{{- $contact.postURL | default (printf "//formspree.io/%s" (or $contact.email .Site.Params.email)) -}}"
-          {{- end -}}>
+          action="{{- $contact.postURL | default (printf "https://formspree.io/%s" (or $contact.email .Site.Params.email)) -}}">
 
           <fieldset>
             <div class="row">
