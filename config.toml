@@ -5,7 +5,7 @@ theme = "agency"
 
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-131097045-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -263,7 +263,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "afreeland+crush@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
